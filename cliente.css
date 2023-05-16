@@ -90,6 +90,14 @@ input[type="checkbox"], input[type="checkbox"] + label{
     display: inline-block;
     font-size: 30px;
 }
-
+.mensagem{
+    color: white;
+}
+.mensagem > p{
+    max-width: 450px;
+    min-width: 320px;
+    margin-bottom: 20px;
+    color:brown;
+}
 
  
