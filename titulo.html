@@ -9,20 +9,27 @@
 </head>
 <body>
     <div class="container">
+        <div class="cards">
+        </div>
         <aside></aside>
         <main>
-            <form action="#">
+            <div class="cadmodal">
+            <div class="modal">
+            <form action="" id="formulario">
                 <fieldset>
                     <legend class="Cadastre-se">Cadastre o item</legend>
-                    <label for="iname" class="iname">Nome do título:</label>
-                    <input type="text" id="titulo" placeholder="Digite seu título">
-                    <label for="iresumo" class="iname">Resumo:</label>
-                    <input type="resumo" id class="dresumo" placeholder="Digite seu resumo">
-                    <input type="link da foto" id="foto" placeholder="Link da foto">
-                    <input type="submit" id="ifinalizar" name="sentrar" value="Finalizar" class="btn-01">
+                    <label for="nome">Nome do título:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu título">
+                    <label for="descricao">Descrição:</label>
+                    <input type="descricao" id="descricao" placeholder="Digite sua descrição">
+                    <label for="foto">Foto:</label>
+                    <input type="file" name="foto" id="foto">
+                    <input type="submit" id="btnfinalizar" name="btnfinalizar" value="Finalizar" class="btn-01">
                 </fieldset>
             </form>
         </main>
     </div>
+    <script src="titulo.js"></script>
 </body>
 </html>
+
